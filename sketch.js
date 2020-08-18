@@ -22,13 +22,18 @@ function setup(){
    
 
     box1 = new Box(700,320,70,70);
-    box2 = new Box(920,320,70,70);
-   
+    box2 = new Box(780,320,70,70);
+    
+
     box3 = new Box(700,240,70,70);
-    box4 = new Box(920,240,70,70);
+    box4 = new Box(780,240,70,70);
     
-    box5 = new Box(810,160,70,70);
-    
+   
+
+    box5 = new Box(740,200,70,70);
+    box6 = new Box(850 , 350, 70,70);
+    box7 = new Box(630,350,70,70);
+    box8 = new Box(740 , 150 , 70,70);
     bird = new Bird(200,50);
 
     //log6 = new Log(230,180,80, PI/2);
@@ -48,8 +53,12 @@ function draw(){
    
 
     box5.display();
-    
+  box6.display();
+    box7.display();
+    box8.display();
 
+  
+    
     bird.display();
     
     //log6.display();
